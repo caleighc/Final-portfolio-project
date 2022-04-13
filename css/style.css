@@ -137,7 +137,7 @@ img {
 }
 
 .intro-div {
-    height: 400px;
+    height: auto;
     background-color: #A9C9D1;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -148,7 +148,7 @@ img {
 }
 
 .ukraine img {
-    height: 200px;
+    width: 100%;
 }    
 
 
@@ -164,7 +164,7 @@ img {
 }
 
 .ukraine {
-    height: 250px;
+    height: auto;
     background-color: #A9C9D1;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -649,14 +649,13 @@ a.skip:focus {
         font-size: medium;
     }
     .intro-div {
-        height: 300px;
+        height: auto;
         width: auto;
         background-color: #A9C9D1;
         display: flex;
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        margin: 20px;
         column-gap: 10px;
     }
     .michigan-classes {
@@ -707,6 +706,16 @@ a.skip:focus {
     }
     .hiking-content img {
         justify-self: center;
+    }
+    .ukraine {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        column-gap: 10px;
+    }
+    .ukraine img {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
